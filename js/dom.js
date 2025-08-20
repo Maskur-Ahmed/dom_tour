@@ -10,3 +10,6 @@ let qAll = document.querySelectorAll(".f_collection")
 for( const li of qAll){
     console.log(li.innerText)
 }
+
+let first = document.getElementById("first");
+console.log(first.classList)
