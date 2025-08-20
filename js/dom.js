@@ -5,4 +5,8 @@ console.log(place);
 console.log(place.innerText);
 let qu = document.querySelector('#fruit');
 console.log(qu);
+let qAll = document.querySelectorAll(".f_collection")
 
+for( const li of qAll){
+    console.log(li.innerText)
+}
