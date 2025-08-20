@@ -3,3 +3,6 @@ console.log(lists);
 let place = document.getElementById("place");
 console.log(place);
 console.log(place.innerText);
+let qu = document.querySelector('#fruit');
+console.log(qu);
+
