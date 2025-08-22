@@ -9,3 +9,6 @@ console.log(fru.innerHTML);
 
 let fc = document.getElementsByClassName("f_collection");
 console.log(fc);
+
+let plc = document.querySelectorAll('.place');
+console.log(plc);
