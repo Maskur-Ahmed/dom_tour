@@ -1,4 +1,5 @@
 let h1 = document.getElementById('first');
+h1.innerHTML = "khawa dawa";
 console.log(h1);
 let cls = document.getElementsByClassName("someclass");
 console.log(cls);
@@ -12,3 +13,5 @@ console.log(fc);
 
 let plc = document.querySelectorAll('.place');
 console.log(plc);
+
+
