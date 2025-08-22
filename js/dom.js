@@ -5,7 +5,7 @@ console.log(cls);
 
 let fru = document.querySelector('#fruit');
 fru.innerHTML = "maskur's fruit"
-console.log(fru);
+console.log(fru.innerHTML);
 
 let fc = document.getElementsByClassName("f_collection");
 console.log(fc);
