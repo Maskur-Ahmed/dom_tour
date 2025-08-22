@@ -5,3 +5,6 @@ console.log(cls);
 
 let fru = document.querySelector('#fruit');
 console.log(fru);
+
+let fc = document.querySelectorAll("f_collection");
+console.log(fc);
