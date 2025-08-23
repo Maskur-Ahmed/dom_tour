@@ -52,3 +52,21 @@ let li = document.createElement("li");
 li.innerText = "lokochoko";
 
 fList.appendChild(li);
+
+let sections = document.querySelectorAll('section');
+for(const section of sections){
+    section.style.backgroundColor="purple";
+    section.style.padding='5px';
+    section.style.marginBottom='10px';
+    section.style.color='white';
+    section.style.borderRadius='20px';
+}
+
+let tList = document.querySelector("#third_list");
+console.log(tList)
+
+let li2 = document.createElement("li");
+
+li2.innerText='reactjs';
+
+tList.appendChild(li2);
