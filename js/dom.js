@@ -14,4 +14,9 @@ console.log(fc);
 let plc = document.querySelectorAll('.place');
 console.log(plc);
 
+h1.setAttribute('class','democlass');
 
+localStorage.setItem('username','Alex');
+let rem = localStorage.getItem('username');
+console.log(rem);
+localStorage.removeItem('username');
