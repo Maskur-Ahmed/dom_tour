@@ -27,4 +27,5 @@ let sections = document.querySelectorAll('section');
 
 for(const sec of sections){
     sec.style.backgroundColor="green"
+    sec.style.border = '2px solid blue'
 }
