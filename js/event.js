@@ -4,11 +4,13 @@ function makeBlue(){
     document.body.style.backgroundColor="green"
 }
 
+// *option 3:-
 let btn1 = document.getElementById('btn1');
-btn1.addEventListener('click',()=>{
+btn1.onclick=function makered(){
     document.body.style.backgroundColor='red';
-});
+}
 
+//*option another 3:-
 let firstBtn = document.getElementById('first');
 firstBtn.onclick =makePurple;
 
