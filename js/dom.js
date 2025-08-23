@@ -63,10 +63,13 @@ for(const section of sections){
 }
 
 let tList = document.querySelector("#third_list");
-console.log(tList)
+
 
 let li2 = document.createElement("li");
 
 li2.innerText='reactjs';
 
 tList.appendChild(li2);
+
+let cNode = tList.childNodes[3].nextSibling.nextSibling.innerText;
+console.log(cNode)
