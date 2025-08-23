@@ -73,3 +73,10 @@ tList.appendChild(li2);
 
 let cNode = tList.childNodes[3].nextSibling.nextSibling.innerText;
 console.log(cNode)
+
+let places = document.getElementsByClassName('place');
+
+for(const place of places){
+    place.style.backgroundColor="gray";
+    place.style.padding='5px';
+}
