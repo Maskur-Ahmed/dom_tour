@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////
 //*option 2:-
 function makeBlue(){
-    document.body.style.backgroundColor="green"
+    document.body.style.backgroundColor="blue"
 }
 
 // *option 3:-
