@@ -18,3 +18,6 @@ function makePurple(){
     document.body.style.backgroundColor="purple";
 
 }
+function makeYollow(){
+    document.body.style.backgroundColor="yollow";
+}
