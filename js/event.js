@@ -19,7 +19,7 @@ function makePurple(){
 
 }
 function makeYollow(){
-    document.body.style.backgroundColor="yollow";
+    document.body.style.backgroundColor="yellow";
 }
 
 let black = document.getElementById('black');
