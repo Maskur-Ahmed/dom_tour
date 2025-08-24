@@ -21,3 +21,10 @@ function makePurple(){
 function makeYollow(){
     document.body.style.backgroundColor="yollow";
 }
+
+let black = document.getElementById('black');
+black.onclick=makeBlack;
+
+function makeBlack(){
+    document.body.style.backgroundColor='black';
+}
