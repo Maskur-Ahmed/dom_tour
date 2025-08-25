@@ -23,6 +23,7 @@ function makePurple(){
     document.body.style.backgroundColor="purple";
 
 }
+
 //=============================================================;
  //*option:2
 
