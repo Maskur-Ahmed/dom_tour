@@ -46,6 +46,7 @@ function makeBlack(){
 //===========================================================
 
 //* option:4
+
 let btnP = document.getElementById('btnP');
 btnP.addEventListener('click',()=>{
     document.body.style.backgroundColor='pink'
