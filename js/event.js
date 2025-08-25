@@ -6,6 +6,7 @@ function makeBlue(){
 
 
 // *option 3:-
+
 let btn1 = document.getElementById('btn1');
 
 btn1.onclick=function makered(){
