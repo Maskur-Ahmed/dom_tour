@@ -42,7 +42,9 @@ black.onclick=makeBlack;
 function makeBlack(){
     document.body.style.backgroundColor='black';
 }
+
 //===========================================================
+
 //* option:4
 let btnP = document.getElementById('btnP');
 btnP.addEventListener('click',()=>{
