@@ -4,6 +4,7 @@ function makeBlue(){
     document.body.style.backgroundColor="blue"
 }
 
+
 // *option 3:-
 let btn1 = document.getElementById('btn1');
 btn1.onclick=function makered(){
