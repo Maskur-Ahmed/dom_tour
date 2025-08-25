@@ -31,6 +31,7 @@ function makePurple(){
 function makeYollow(){
     document.body.style.backgroundColor="yellow";
 }
+
 // ===========================================;
 
 //*option:3
