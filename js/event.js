@@ -14,6 +14,7 @@ btn1.onclick=function makered(){
 }
 
 //*option another 3:-
+
 let firstBtn = document.getElementById('first');
 firstBtn.onclick =makePurple;
 
