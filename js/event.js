@@ -35,6 +35,7 @@ function makeYollow(){
 // ===========================================;
 
 //*option:3
+
 let black = document.getElementById('black');
 black.onclick=makeBlack;
 
