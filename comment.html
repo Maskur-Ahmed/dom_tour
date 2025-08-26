@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #commentArea{
+            resize: none;
+        }
+    </style>
 </head>
 <body>
     <h1>please add your comment</h1>
@@ -13,7 +18,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, perferendis.</p>
     </div>
     <div>
-        <textarea name="" id="commentArea" cols="30" rows="10"></textarea>
+        <textarea name="" id="commentArea" draggable="false" cols="30" rows="10"></textarea>
         <button id="postBtn">post</button>
     </div>
     <script src="js/comment.js"></script>
