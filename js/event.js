@@ -60,6 +60,11 @@ function changeIt(){
     handelStatus.innerHTML='etai bastob,i love you haa hahaha';
 }
 
+
 document.getElementById('eventL').addEventListener('click',()=>{
-    console.log("hi i am event listener");
+    let ip = document.getElementById('ipp');
+    let iv = ip.value;
+    let S = document.getElementById('Status');
+    S.innerText= iv;
+    ip.value = '';
 });
