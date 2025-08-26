@@ -50,4 +50,12 @@ function makeBlack(){
 let btnP = document.getElementById('btnP');
 btnP.addEventListener('click',()=>{
     document.body.style.backgroundColor='pink'
-})
+});
+
+
+// summary 
+
+function changeIt(){
+    console.log('hi i am changing');
+    
+}
