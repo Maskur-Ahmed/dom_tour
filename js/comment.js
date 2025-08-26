@@ -5,6 +5,8 @@ document.getElementById('postBtn').addEventListener('click',()=>{
     let commentValue = commentBox.value;
     // push the comment into the main area;
     let commentContainer = document.getElementById('commentContainer');
-    
-
+    let p = document.createElement('p');
+    commentContainer.appendChild(p);
+    p.innerText= commentValue;
+    commentBox.value = '';
 })
