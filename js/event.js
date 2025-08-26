@@ -57,5 +57,8 @@ btnP.addEventListener('click',()=>{
 
 function changeIt(){
     console.log('hi i am changing');
-    
 }
+
+document.getElementById('eventL').addEventListener('click',()=>{
+    console.log("hi i am event listener");
+});
