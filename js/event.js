@@ -56,7 +56,8 @@ btnP.addEventListener('click',()=>{
 // summary 
 
 function changeIt(){
-    console.log('hi i am changing');
+    let handelStatus = document.getElementById('handelStatus');
+    handelStatus.innerHTML='etai bastob,i love you haa hahaha';
 }
 
 document.getElementById('eventL').addEventListener('click',()=>{
