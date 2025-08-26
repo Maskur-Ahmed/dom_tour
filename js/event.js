@@ -62,9 +62,10 @@ function changeIt(){
 
 
 document.getElementById('eventL').addEventListener('click',()=>{
-    let ip = document.getElementById('ipp');
-    let iv = ip.value;
-    let S = document.getElementById('Status');
-    S.innerText= iv;
-    ip.value = '';
+    let input_text = document.getElementById('input-text');
+    let input_handle = document.getElementById('input_handle');
+    let inputV = input_text.value;
+    input_handle.innerText= inputV;
+    input_text.value = '';
+
 });
