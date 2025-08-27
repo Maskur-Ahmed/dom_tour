@@ -12,4 +12,4 @@ document.getElementById('postBtn').addEventListener('click',()=>{
     p.innerText= commentValue;
     // clear the text area;
     commentBox.value = '';
-})
+});
