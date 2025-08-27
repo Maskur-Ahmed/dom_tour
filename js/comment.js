@@ -13,3 +13,7 @@ document.getElementById('postBtn').addEventListener('click',()=>{
     // clear the text area;
     commentBox.value = '';
 });
+
+document.getElementById('delete').addEventListener('click',()=>{
+    document.getElementById('pragraph').remove('pragraph'); 
+})
