@@ -15,7 +15,7 @@ document.getElementById('postBtn').addEventListener('click',()=>{
 });
 
 function del(){
- document.getElementById('pragraph').remove('pragraph'); 
+ document.querySelectorAll('.coment').remove('coment')
  let delBtn = document.getElementById('del');
  delBtn.style='display:none'
 }
