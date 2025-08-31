@@ -16,8 +16,9 @@ document.getElementById('postBtn').addEventListener('click',()=>{
 
 function del(){
     // select the comment area;
+    let cC=document.getElementById('commentContainer');
   let comment = document.querySelectorAll('.coment');
-  document.removeChild(comment);
+  document.removeChild(cC);
   //comment deleted
   //   comment.style='display:none'
  //select the delete button;
