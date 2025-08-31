@@ -19,6 +19,7 @@ function del(){
  document.querySelectorAll('.coment');
  //select the delete button;
  let delBtn = document.getElementById('del');
+ //apply the style
  delBtn.style='display:none'
 
 }
