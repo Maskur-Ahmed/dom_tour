@@ -18,7 +18,7 @@ function del(){
     // select the comment area;
   let comment = document.querySelectorAll('.coment');
   //comment deleted
-//   comment.style='display:none'
+  //   comment.style='display:none'
  //select the delete button;
  let delBtn = document.getElementById('del');
  //apply the style
