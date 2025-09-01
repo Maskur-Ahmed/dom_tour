@@ -12,6 +12,7 @@ let h1 = document.createElement('h1');
 h1.innerText ='foods i like';
 let p = document.createElement('p');
 p.innerText = 'the foods are very good';
+
 sec.appendChild(h1);
 sec.appendChild(p);
 main.appendChild(sec);
