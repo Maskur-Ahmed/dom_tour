@@ -16,4 +16,5 @@ p.innerText = 'the foods are very good';
 sec.appendChild(h1);
 
 sec.appendChild(p);
+
 main.appendChild(sec);
