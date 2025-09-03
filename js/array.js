@@ -8,3 +8,4 @@ console.log(myArr);
 console.log(myArr.length);
 
 alert(myArr.at(-1));
+
