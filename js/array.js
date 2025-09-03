@@ -13,4 +13,5 @@ let place =['Thakurgaon','Rajshahi','sylhet'];
 
 place.push('kataban');
 
-alert(place);
+place.shift()
+// alert(place);
