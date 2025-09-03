@@ -7,4 +7,10 @@ myArr[3]='ahmed';
 console.log(myArr);
 console.log(myArr.length);
 
-alert(myArr.at(-1));
+// alert(myArr.at(-1));
+
+let place =['Thakurgaon','Rajshahi','sylhet'];
+
+place.push('kataban');
+
+alert(place);
