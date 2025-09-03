@@ -12,6 +12,6 @@ console.log(myArr.length);
 let place =['Thakurgaon','Rajshahi','sylhet'];
 
 place.push('kataban');
-
 place.shift()
-// alert(place);
+place.unshift('maskur');
+alert(place);
