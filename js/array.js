@@ -6,3 +6,5 @@ myArr[3]='ahmed';
 // alert(myArr[1]);
 console.log(myArr);
 console.log(myArr.length);
+
+alert(myArr);
