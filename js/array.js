@@ -1,3 +1,6 @@
 let myArr =['apple','banana','plum'];
 
-alert(myArr[0]);
+
+myArr[1]='maskur'
+alert(myArr[1]);
+console.log(myArr)
