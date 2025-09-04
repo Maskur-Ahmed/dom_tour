@@ -42,7 +42,11 @@ decrement.addEventListener('click',()=>{
 //*======================input part start=================;
 let inpt = document.getElementById('inpt');
 let btn = document.getElementById('btn');
-
+let show = document.getElementById('show');
+let error = document.getElementById('error');
 btn.addEventListener('click',()=>{
+   if(inpt.value == ''){
+    error.innerHTML='please enter some word';
     
+   }
 })
