@@ -38,3 +38,11 @@ decrement.addEventListener('click',()=>{
     quantity.innerHTML=mvalue;
   }
 });
+
+//*======================input part start=================;
+let inpt = document.getElementById('inpt');
+let btn = document.getElementById('btn');
+
+btn.addEventListener('click',()=>{
+    
+})
