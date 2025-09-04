@@ -16,3 +16,9 @@
 // place.unshift('maskur');
 // alert(place);
 
+function my(num,num1){
+    sum = num + num1
+    return;
+}
+
+my( );
