@@ -1,6 +1,5 @@
 // let myArr =['apple','banana','plum'];
 
-
 // myArr[1]='maskur';
 // myArr[3]='ahmed';
 // // alert(myArr[1]);
@@ -17,43 +16,40 @@
 // alert(place);
 // =======================Dom start=================;
 
-let decrement = document.getElementById('decrement');
-let increment = document.querySelector('#increment');
-let quantity = document.getElementById('quantity');
+let decrement = document.getElementById("decrement");
+let increment = document.querySelector("#increment");
+let quantity = document.getElementById("quantity");
 
 let mvalue = 0;
-quantity.innerHTML=mvalue;
+quantity.innerHTML = mvalue;
 
-increment.addEventListener('click',()=>{
-    mvalue++;
-    quantity.innerHTML=mvalue;
+increment.addEventListener("click", () => {
+  mvalue++;
+  quantity.innerHTML = mvalue;
 });
 
-decrement.addEventListener('click',()=>{
-  if(mvalue == 0 ){
-    alert('tmake ekta nitei hobe');
-  }
-  else{
+decrement.addEventListener("click", () => {
+  if (mvalue == 0) {
+    alert("tmake ekta nitei hobe");
+  } else {
     mvalue--;
-    quantity.innerHTML=mvalue;
+    quantity.innerHTML = mvalue;
   }
 });
 
 //*======================input part start=================;
-let inpt = document.getElementById('inpt');
-let btn = document.getElementById('btn');
-let show = document.getElementById('show');
-let error = document.getElementById('error');
-btn.addEventListener('click',()=>{
-   if(inpt.value == ''){
-    error.innerHTML='please enter some word';
-    error.style='color:red';
-    
-   }
-   else{
-    show.innerHTML=inpt.value;
-    inpt.value='';
-     error.innerHTML='';
-   }
-   
-})
+let inpt = document.getElementById("inpt");
+let btn = document.getElementById("btn");
+let show = document.getElementById("show");
+let error = document.getElementById("error");
+btn.addEventListener("click", () => {
+  if (inpt.value == "") {
+    error.innerHTML = "please enter some word";
+    error.style = "color:red";
+    inpt.style='background-color:red'
+  } else {
+    error.innerHTML = "";
+    show.innerHTML = inpt.value;
+    inpt.value = "";
+  }
+});
