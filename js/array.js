@@ -19,4 +19,8 @@
 
 let increment = document.getElementById('decrement');
 let decrement = document.querySelector('#increment');
-let quantity = document.getElementsByClassName('quantity');
+let quantity = document.getElementById('quantity');
+
+let mvalue = 1;
+quantity.innerHTML=mvalue;
+
