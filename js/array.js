@@ -1,17 +1,18 @@
-let myArr =['apple','banana','plum'];
+// let myArr =['apple','banana','plum'];
 
 
-myArr[1]='maskur';
-myArr[3]='ahmed';
-// alert(myArr[1]);
-console.log(myArr);
-console.log(myArr.length);
+// myArr[1]='maskur';
+// myArr[3]='ahmed';
+// // alert(myArr[1]);
+// console.log(myArr);
+// console.log(myArr.length);
 
-// alert(myArr.at(-1));
+// // alert(myArr.at(-1));
 
-let place =['Thakurgaon','Rajshahi','sylhet'];
+// let place =['Thakurgaon','Rajshahi','sylhet'];
 
-place.push('kataban');
-place.shift()
-place.unshift('maskur');
-alert(place);
+// place.push('kataban');
+// place.shift()
+// place.unshift('maskur');
+// alert(place);
+
