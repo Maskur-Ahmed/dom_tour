@@ -47,6 +47,13 @@ let error = document.getElementById('error');
 btn.addEventListener('click',()=>{
    if(inpt.value == ''){
     error.innerHTML='please enter some word';
+    error.style='color:red';
     
    }
+   else{
+    show.innerHTML=inpt.value;
+    inpt.value='';
+     error.innerHTML='';
+   }
+   
 })
