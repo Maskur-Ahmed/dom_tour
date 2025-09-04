@@ -21,7 +21,7 @@ let decrement = document.getElementById('decrement');
 let increment = document.querySelector('#increment');
 let quantity = document.getElementById('quantity');
 
-let mvalue = 1;
+let mvalue = 0;
 quantity.innerHTML=mvalue;
 
 increment.addEventListener('click',()=>{
@@ -29,3 +29,12 @@ increment.addEventListener('click',()=>{
     quantity.innerHTML=mvalue;
 });
 
+decrement.addEventListener('click',()=>{
+  if(mvalue == 0 ){
+    alert('tmake ekta nitei hobe');
+  }
+  else{
+    mvalue--;
+    quantity.innerHTML=mvalue;
+  }
+});
