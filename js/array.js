@@ -25,5 +25,7 @@ let mvalue = 1;
 quantity.innerHTML=mvalue;
 
 increment.addEventListener('click',()=>{
-    console.log('hae click hocche')
-})
+    mvalue++;
+    quantity.innerHTML=mvalue;
+});
+
