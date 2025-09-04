@@ -15,10 +15,8 @@
 // place.shift()
 // place.unshift('maskur');
 // alert(place);
+// =======================Dom start=================;
 
-function my(num,num1){
-    sum = num + num1
-    return;
-}
-
-my( );
+let increment = document.getElementById('decrement');
+let decrement = document.querySelector('#increment');
+let quantity = document.getElementsByClassName('quantity');
