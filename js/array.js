@@ -17,10 +17,13 @@
 // alert(place);
 // =======================Dom start=================;
 
-let increment = document.getElementById('decrement');
-let decrement = document.querySelector('#increment');
+let decrement = document.getElementById('decrement');
+let increment = document.querySelector('#increment');
 let quantity = document.getElementById('quantity');
 
 let mvalue = 1;
 quantity.innerHTML=mvalue;
 
+increment.addEventListener('click',()=>{
+    console.log('hae click hocche')
+})
